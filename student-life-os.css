@@ -1,0 +1,459 @@
+/* =========================================
+   PROJECT DETAIL PAGE
+========================================= */
+
+.project-detail-page {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+
+/* =========================================
+   BACK BUTTON
+========================================= */
+
+.back-button {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 7px;
+
+    padding: 7px 12px;
+
+    border: 3px solid #000000;
+
+    border-radius: 6px;
+
+    background-color: #ffffff;
+
+    box-shadow: 4px 4px #000000;
+
+    color: #000000;
+
+    font-size: 13px;
+
+    text-decoration: none;
+}
+
+
+
+.back-button:active {
+
+    transform: translate(4px, 4px);
+
+    box-shadow: none;
+}
+
+
+
+/* =========================================
+   PROJECT HEADER
+========================================= */
+
+.project-detail-header {
+
+    margin-top: 20px;
+
+    padding: 15px;
+
+    border: 3px solid #000000;
+
+    border-radius: 10px;
+
+    background-color: #CCFF00;
+
+    box-shadow: 4px 4px #000000;
+}
+
+
+
+.project-label {
+
+    width: fit-content;
+
+    padding: 4px 8px;
+
+    border: 2px solid #000000;
+
+    border-radius: 4px;
+
+    background-color: #ffffff;
+
+    font-size: 10px;
+}
+
+
+
+.project-detail-header h1 {
+
+    margin-top: 8px;
+
+    font-size: 36px;
+
+    line-height: 1;
+}
+
+
+
+.project-subtitle {
+
+    margin-top: 7px;
+
+    max-width: 500px;
+
+    font-size: 13px;
+
+    font-weight: 500;
+
+    line-height: 1.4;
+}
+
+
+
+/* =========================================
+   PROJECT PREVIEW
+========================================= */
+
+.project-preview {
+
+    margin-top: 12px;
+
+    padding: 8px;
+
+    border: 3px solid #000000;
+
+    border-radius: 10px;
+
+    background-color: #ffffff;
+
+    box-shadow: 4px 4px #000000;
+}
+
+
+
+.project-preview img {
+
+    display: block;
+
+    width: 100%;
+
+    border: 2px solid #000000;
+
+    border-radius: 6px;
+}
+
+
+
+/* =========================================
+   PROJECT INFO
+========================================= */
+
+.project-info {
+
+    margin-top: 12px;
+
+    padding: 14px;
+
+    border: 3px solid #000000;
+
+    border-radius: 10px;
+
+    background-color: #ffffff;
+
+    box-shadow: 4px 4px #000000;
+}
+
+
+
+.project-info h2 {
+
+    font-size: 21px;
+}
+
+
+
+.project-info p {
+
+    margin-top: 7px;
+
+    font-size: 13px;
+
+    font-weight: 500;
+
+    line-height: 1.5;
+}
+
+
+
+/* =========================================
+   FEATURE LIST
+========================================= */
+
+.feature-list {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 9px;
+
+    margin-top: 12px;
+}
+
+
+
+.feature-item {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    font-size: 13px;
+}
+
+
+
+.feature-item i {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 23px;
+
+    height: 23px;
+
+    border: 2px solid #000000;
+
+    border-radius: 50%;
+
+    background-color: #CCFF00;
+
+    font-size: 10px;
+}
+
+
+
+/* =========================================
+   TECH STACK
+========================================= */
+
+.tech-list {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin-top: 12px;
+}
+
+
+
+.tech-item {
+
+    padding: 5px 9px;
+
+    border: 2px solid #000000;
+
+    border-radius: 5px;
+
+    background-color: #FF90E8;
+
+    box-shadow: 2px 2px #000000;
+
+    font-size: 11px;
+}
+
+
+
+/* =========================================
+   PROJECT LINKS
+========================================= */
+
+.project-links {
+
+    display: flex;
+
+    gap: 10px;
+
+    margin-top: 14px;
+
+    margin-bottom: 10px;
+}
+
+
+
+.project-live-button,
+.project-github-button {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 7px;
+
+    width: 50%;
+
+    padding: 10px;
+
+    border: 3px solid #000000;
+
+    border-radius: 6px;
+
+    box-shadow: 4px 4px #000000;
+
+    color: #000000;
+
+    font-size: 13px;
+
+    text-decoration: none;
+}
+
+
+
+.project-live-button {
+
+    background-color: #CCFF00;
+}
+
+
+
+.project-github-button {
+
+    background-color: #ffffff;
+}
+
+
+
+.project-live-button:active,
+.project-github-button:active {
+
+    transform: translate(4px, 4px);
+
+    box-shadow: none;
+}
+
+
+
+/* =========================================
+   PROJECT DETAIL - SMALL MOBILE
+========================================= */
+
+@media (max-width: 360px) {
+
+    .project-detail-header h1 {
+
+        font-size: 30px;
+    }
+
+
+    .project-info h2 {
+
+        font-size: 19px;
+    }
+
+
+    .project-links {
+
+        flex-direction: column;
+    }
+
+
+    .project-live-button,
+    .project-github-button {
+
+        width: 100%;
+    }
+
+}
+
+/* =========================
+   DESKTOP
+========================= */
+
+@media (min-width: 768px) {
+
+    body {
+        margin: 0;
+        padding: 0 40px;
+    }
+
+    .project-detail-page {
+        width: 100%;
+        max-width: 1000px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .back-button {
+        padding: 9px 15px;
+        font-size: 14px;
+    }
+
+    .project-detail-header {
+        padding: 30px;
+        margin-top: 25px;
+    }
+
+    .project-detail-header h1 {
+        font-size: 56px;
+    }
+
+    .project-subtitle {
+        max-width: 650px;
+        font-size: 16px;
+    }
+
+    .project-preview {
+        padding: 12px;
+        margin-top: 20px;
+    }
+
+    .project-info {
+        padding: 25px;
+        margin-top: 20px;
+    }
+
+    .project-info h2 {
+        font-size: 28px;
+    }
+
+    .project-info p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .feature-item {
+        font-size: 15px;
+    }
+
+    .tech-item {
+        padding: 7px 12px;
+        font-size: 13px;
+    }
+
+    .project-links {
+        margin-top: 22px;
+    }
+
+    .project-live-button,
+    .project-github-button {
+        padding: 13px;
+        font-size: 15px;
+    }
+}
