@@ -721,7 +721,7 @@ header h1 {
 
         width: 220px;
 
-        height: 170px;
+        height: 260px;
 
         margin: 0;
 
@@ -905,7 +905,7 @@ header h1 {
 
 
     .project-item > img {
-        height: 260px;
+        height: 170px;
     }
 
 
