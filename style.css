@@ -288,6 +288,11 @@ header h1 {
 }
 
 
+.skill-item .fa-database {
+    color: #3ECF8E;
+}
+
+
 
 /* =========================
    PROJECTS
@@ -334,6 +339,16 @@ header h1 {
 /* =========================
    PROJECT ITEM
 ========================= */
+
+.project-item.featured {
+    grid-column: 1 / -1;
+}
+
+
+.project-item.featured > img {
+    height: 140px;
+}
+
 
 .project-item {
     min-width: 0;
@@ -791,7 +806,18 @@ header h1 {
 
 
     .projects-card {
+        grid-template-columns: repeat(3, 1fr);
         gap: 20px;
+    }
+
+
+    .project-item.featured {
+        grid-column: auto;
+    }
+
+
+    .project-item.featured > img {
+        height: 220px;
     }
 
 
@@ -899,6 +925,11 @@ header h1 {
 
 
     .project-item > img {
+        height: 260px;
+    }
+
+
+    .project-item.featured > img {
         height: 260px;
     }
 
